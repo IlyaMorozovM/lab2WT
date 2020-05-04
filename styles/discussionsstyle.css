@@ -1,0 +1,220 @@
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 101, 119);
+  height: 60px;
+}
+
+/* Backbutton */
+
+.a {
+    text-decoration: none;
+}
+/* Menu */
+
+.mainmenu {
+  padding: 10px 20px;
+  height: 40px;
+}
+
+.mainmenu nav {
+  float: left;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+}
+
+.mainmenu nav ul {
+  margin: 5px 5px;
+  padding: 5px 5px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mainmenu nav li {
+  display: inline-block;
+}
+
+.menubutton {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(121, 183, 194);
+}
+
+.menubutton:hover {
+  color: rgb(248, 163, 140);
+}
+
+.menubutton:active {
+  color: rgb(255, 132, 98);
+}
+
+.menubutton_active {
+	color: red;
+}
+
+.backbutton {
+    width: 150px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    float: left;
+    text-align: center;
+    color: rgb(66, 98, 104);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    background-color: rgb(121, 183, 194);
+    border-style: none;
+    border-radius: 15px;
+}
+
+.backbutton:hover {
+    color: rgb(83, 53, 45);
+    background-color: rgb(248, 163, 140);
+}
+
+.backbutton:active {
+    color: rgb(56, 36, 30);
+    background-color: rgb(255, 132, 98);
+}
+
+/* Content */
+
+body {
+    margin: 0;
+    background-color: rgb(0, 74, 83);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    color: rgb(3, 27, 31);
+}
+
+.postform {
+    text-align: center;
+    padding-top: 10px;
+    font-size: x-large;
+    font-weight: 24px;
+    color: rgb(14, 137, 153);
+    font-family: 'Philosopher', sans-serif;
+}
+
+.postform span {
+    padding: 5px;
+    color: rgb(14, 137, 153);
+}
+
+
+textarea {
+    width: 600px;
+    height: 200px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+input[type=file] {
+    background-color: rgb(14, 137, 153);
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(7, 64, 71);
+    outline: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+input[type=e-mail] {
+    background-color: rgb(14, 137, 153);
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(7, 64, 71);
+    outline: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+input[type=submit] {
+    background-color: rgb(14, 137, 153);
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(7, 64, 71);
+    outline: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(223, 112, 93);
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(71, 7, 7);
+}
+
+input[type=submit]:active {
+    background-color: rgb(255, 81, 50);
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(43, 5, 5);
+}
+
+textarea {
+    background-color: rgb(103, 185, 196);
+    border-style: none;
+    border-radius: 10px;
+}
+
+.postformtext {
+    font-size: medium;
+    margin-bottom: 5px;
+}
+
+.btn::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.btn {
+    content: "choosew file)";
+    color: rgb(14, 137, 153);
+    border-style: none;
+    width: 350px;
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(73, 103, 109);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(34, 67, 73);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(26, 51, 54);
+}
+
+/* Copyright */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0, 28, 32);
+}
+
+.footercont {
+    margin: 5px 5px;
+    padding: 5px 5px;
+    color: rgb(0, 78, 88);
+    font-family: 'Philosopher', sans-serif;
+}
