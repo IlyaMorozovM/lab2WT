@@ -1,0 +1,217 @@
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 101, 119);
+  height: 60px;
+}
+
+/* Menu */
+
+.mainmenu {
+  padding: 10px 20px;
+  height: 40px;
+}
+
+.mainmenu nav {
+  float: left;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+}
+
+.mainmenu nav ul {
+  margin: 5px 5px;
+  padding: 5px 5px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mainmenu nav li {
+  display: inline-block;
+}
+
+.menubutton {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(121, 183, 194);
+}
+
+.menubutton:hover {
+  color: rgb(248, 163, 140);
+}
+
+.menubutton:active {
+  color: rgb(255, 132, 98);
+}
+
+.menubutton_active {
+	color: red;
+}
+/* Log in */
+
+.signin {
+  width: 70px;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  float: right;
+  text-align: center;
+  color: rgb(66, 98, 104);
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  background-color: rgb(121, 183, 194);
+  border-style: none;
+  border-radius: 15px;
+}
+
+.signin:hover {
+  color: rgb(83, 53, 45);
+  background-color: rgb(248, 163, 140);
+}
+
+.signin:active {
+  color: rgb(56, 36, 30);
+  background-color: rgb(255, 132, 98);
+}
+
+/* Content */
+
+body {
+  margin: 0;
+  background-color: rgb(0, 74, 83);
+  min-width: 600px;
+}
+
+.engineimage {
+  margin-top: 30px;
+  position: static;
+  width: 100%;
+  text-align: center;
+}
+
+
+.connectingrods {
+  height: 70px;
+}
+
+
+.crankshaftcont {
+  margin: 10px;
+  padding: 0px 200px;
+}
+
+
+.caption {
+  font-size: 72px;
+  font-family: 'Philosopher', sans-serif;
+  margin: 10px;
+  text-align: center;
+  color: rgb(0, 10, 10);
+}
+
+.mainimage {
+  position: relative;
+}
+
+@keyframes reversefade {
+  0% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+.mainimage h1 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  bottom: 0px; 
+  margin: 0px;
+  opacity: 0%;
+  font-family: 'Philosopher', sans-serif;
+  color: rgb(0, 27, 31);
+  background: linear-gradient(to bottom, rgba(57, 136, 148, 0.7), rgba(10, 25, 27, 0.9));
+  animation: reversefade 1s linear forwards;
+}
+
+.imgarticle {
+  font-size: medium;
+  margin: 30px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.mainimage h1:hover {
+  cursor: pointer;
+  animation: fade 1s linear forwards;
+}
+
+.article {
+  margin-top: 20px;
+  margin-bottom: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 20px;
+  border-radius: 20px;
+  font-size: 24px;
+  color: rgb(107, 145, 151);
+  background-color: rgb(24, 42, 44, 0.7);
+  font-family: 'Philosopher', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(73, 103, 109);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(34, 67, 73);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(26, 51, 54);
+}
+
+/* Copyright */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(0, 28, 32);
+}
+
+.footercont {
+  margin: 5px 5px;
+  padding: 5px 5px;
+  color: rgb(0, 78, 88);
+  font-family: 'Philosopher', sans-serif;
+}
